@@ -7,22 +7,22 @@ class Vnclm < Formula
   on_macos do
     on_arm do
       url "https://github.com/FlorianWenzel/vinculum/releases/download/v#{version}/vnclm-darwin-arm64"
-      sha256 "c694e249fa66cdefb37ed31a3c3532b856fb5b2942f5c37bee18a5e428a7ae3f"
+      sha256 "7d59ec7081ef86619ce06f12c7f115aff23d43e338a47b12b5d9a365dda2d046"
     end
     on_intel do
       url "https://github.com/FlorianWenzel/vinculum/releases/download/v#{version}/vnclm-darwin-amd64"
-      sha256 "b26b20ac997b3b90315d7106a3b23c25ad6fba1dc80b3eabac6d15fbf16341e7"
+      sha256 "1823bef70f51896023d35b0bedd9c169a5996f2483520d4cab7af3f2a5e569e5"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/FlorianWenzel/vinculum/releases/download/v#{version}/vnclm-linux-arm64"
-      sha256 "768346e8f5cced80a6c5191830b192716a866c1f28d8723c4d0b4ce3bc9bf18a"
+      sha256 "c72bf0db2c6ba4562644211b8f1dbc4b9e638ce6006aa0db33a2d94a74cab70d"
     end
     on_intel do
       url "https://github.com/FlorianWenzel/vinculum/releases/download/v#{version}/vnclm-linux-amd64"
-      sha256 "7887414bd0ebda529feab0048d231e4a66a8af6ea2aa1b7ad76396674db2d9a6"
+      sha256 "6b178368b013055560ef99e8a3ffacc9db07e1e2745b15ef2d473227f006c5f9"
     end
   end
 
