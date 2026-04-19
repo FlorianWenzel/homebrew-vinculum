@@ -1,28 +1,28 @@
 class Vnclm < Formula
   desc "CLI for the Vinculum Kubernetes AI-agent platform"
   homepage "https://github.com/FlorianWenzel/vinculum"
-  version "0.5.2"
+  version "0.5.3"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/FlorianWenzel/vinculum/releases/download/v#{version}/vnclm-darwin-arm64"
-      sha256 "344347a617326db56e3d8b62f24e926a132eeaa2cc81f718352a9013f4a6162c"
+      sha256 "79979ded2df98e3260c203d8c9b11fc8bd0c591dce69c98efd8839afb05ca8a8"
     end
     on_intel do
       url "https://github.com/FlorianWenzel/vinculum/releases/download/v#{version}/vnclm-darwin-amd64"
-      sha256 "b64af1fa089bcea619223e53fd02dea584ef45859fbec35dfe83dad67ea89f71"
+      sha256 "ad968ba37890dcbb3561ae22e0e6058729dbbc885ed2e1b4f45faafeb7975e9a"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/FlorianWenzel/vinculum/releases/download/v#{version}/vnclm-linux-arm64"
-      sha256 "072bef3d2fbe14af7bff0f5e203f6f47f9a88f60a5866363de9d6660cd55f516"
+      sha256 "19157a5ec78c9faaa776a2794d4b815963d83b97cea047e360e15d74246ebcd5"
     end
     on_intel do
       url "https://github.com/FlorianWenzel/vinculum/releases/download/v#{version}/vnclm-linux-amd64"
-      sha256 "4c76935a7f573638d61d66c413ab8d7b1443b6ef68ec1cd32bb351a11aec50db"
+      sha256 "544da1988777281c0bdba87505582cc83d55ae232c87a15db154f37b6f82ea67"
     end
   end
 
